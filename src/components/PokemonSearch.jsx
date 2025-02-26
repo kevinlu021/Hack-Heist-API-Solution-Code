@@ -52,7 +52,7 @@ function PokemonSearch() {
           id="pokemon"
           value={pokemonName}
           onChange={(e) => setPokemonName(e.target.value)}
-          placeholder="e.g., 201"
+          placeholder="e.g., Pikachu"
           className="tracker-input"
         />
         <button type="submit" className="tracker-button">
